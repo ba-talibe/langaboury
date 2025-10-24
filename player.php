@@ -114,6 +114,8 @@
         let scanner = null;
         let isScanning = false;
 
+        let sessionTeamName = <?php echo isset($_SESSION['group_name']) ? $_SESSION['group_name'] : 'null'; ?>;
+
         async function startGame() {
             try {
                 // Récupérer le groupId depuis la session PHP

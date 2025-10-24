@@ -65,7 +65,7 @@ async function loadGameState() {
 async function loadTeamName() {
     try {
         // Récupérer le nom du groupe depuis la session PHP
-        const teamName = "<?php echo isset($_SESSION['group_name']) ? htmlspecialchars($_SESSION['group_name']) : 'Mon Groupe'; ?>";
+        const teamName = sessionTeamName || 'Mon Groupe';
         document.getElementById('teamName').textContent = teamName;
 
     } catch (error) {
