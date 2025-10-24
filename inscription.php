@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>📝 Inscription - Chasse au Trésor</title>
     <meta name="theme-color" content="#667eea">
-    <link rel="stylesheet" href="css/inscription.css">
+    <link rel="stylesheet" href="style/inscription.css">
 </head>
 <body>
 
