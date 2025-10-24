@@ -134,6 +134,8 @@
                 window.location.href = '/connexion.php';
             }
         }
+                // Charger les groupes au démarrage
+        window.addEventListener('load', startGame);
      
     </script>
     <script src="js/player.js"></script>

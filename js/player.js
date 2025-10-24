@@ -4,9 +4,6 @@ let currentEnigme = null;
 let scanner = null;
 let isScanning = false;
 
-// Charger les groupes au démarrage
-window.addEventListener('load', startGame);
-
 
 function fetchHistorique() {
     fetch(`api_simple.php?action=get_good_answers&group_id=${groupId}`)
