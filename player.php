@@ -108,6 +108,12 @@
 
     <script src="https://unpkg.com/html5-qrcode"></script>
     <script>
+
+        let groupId = null;
+        let currentEnigme = null;
+        let scanner = null;
+        let isScanning = false;
+
         async function startGame() {
             try {
                 // Récupérer le groupId depuis la session PHP

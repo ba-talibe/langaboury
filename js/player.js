@@ -1,9 +1,4 @@
 
-let groupId = null;
-let currentEnigme = null;
-let scanner = null;
-let isScanning = false;
-
 
 function fetchHistorique() {
     fetch(`api_simple.php?action=get_good_answers&group_id=${groupId}`)
