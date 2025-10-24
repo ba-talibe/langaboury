@@ -117,7 +117,7 @@
         async function startGame() {
             try {
                 // Récupérer le groupId depuis la session PHP
-                const sessionGroupId = <? php echo isset($_SESSION['group_id']) ? $_SESSION['group_id'] : 'null'; ?>;
+                const sessionGroupId = <?php echo isset($_SESSION['group_id']) ? $_SESSION['group_id'] : 'null'; ?>;
 
                 if (!sessionGroupId) {
                     throw new Error('Aucun groupe trouvé dans la session');
